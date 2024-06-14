@@ -269,6 +269,9 @@
     .Section-drag-right{
         flex-flow: column-reverse;
     }
+    .Section-drag-tap{
+        flex-flow: column;
+    }
     .Section-description{
         width: 100%;
         justify-content: center;
