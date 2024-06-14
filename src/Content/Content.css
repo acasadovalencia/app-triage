@@ -269,7 +269,7 @@
     .Section-drag-right{
         flex-flow: column-reverse;
     }
-    .Section-wrapper:nth-child(even)>.Section-tag{
+    .Section-wrapper:nth-child(even)>.Section-tap{
         flex-direction: column-reverse;
     }
     .Section-description{
