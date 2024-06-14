@@ -269,7 +269,7 @@
     .Section-drag-right{
         flex-flow: column-reverse;
     }
-    .Section-tap{
+    .Section.Section-tap{
         flex-flow: column;
     }
     .Section-description{
