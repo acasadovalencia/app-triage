@@ -57,7 +57,7 @@ const Card = (props)=>{
         <>
         <li className={`Cards-li Card-${name}`}>
             <picture className="Cards-picture">
-                <img src={`../../src/assets/${icon}`} alt={`${name} card icon`} className={`Cards-img Card-icon--${name}`} loading='lazy' width='48' height='48' />
+                <img src={`./assets/${icon}`} alt={`${name} card icon`} className={`Cards-img Card-icon--${name}`} loading='lazy' width='48' height='48' />
             </picture>
             <h3 className="Cards-h3">{title}</h3>
         </li>

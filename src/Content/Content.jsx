@@ -58,21 +58,21 @@ const Section = (props)=>{
                     <div className={`Section-description Description-${name}`}>
                         <div className={`Description-wrapper Description-wrapper--${name}`}>
                             <picture className="Description-picture">
-                                <img src={`../../src/assets/${icon}`} alt={`${name} icon`} className={`Description-icon Icon-${name}`} loading='lazy' height='48' width='48' />
+                                <img src={`./assets/${icon}`} alt={`${name} icon`} className={`Description-icon Icon-${name}`} loading='lazy' height='48' width='48' />
                             </picture>
                             <h2 className={`Description-h2 H2-${name}`}>{title}</h2>
                             <p className={`Description-paragraph Paragraph-${name}`}>{description}</p>
                             {name == 'triage' && 
                             <a href='https://www.apple.com/es/app-store/' target='_blank' rel='noreferrer' className='Appstore-link' title='Go to Appstore'>
                                 <picture className='Appstore-picture'>
-                                    <img src="../../src/assets/appstore-icon-186x61.png" alt="Appstore Icon" className='Appstore-icon' width='186' height='61' />
+                                    <img src="./assets/appstore-icon-186x61.png" alt="Appstore Icon" className='Appstore-icon' width='186' height='61' />
                                 </picture> 
                             </a>}
                         </div>
                     </div>
                     <div className={`Section-image Image-${name}`}>
                         <picture className={`Image-picture Image-picture--${name}`}>
-                            <img src={`../../src/assets/${image}`} alt={alt_image} className="Section-img" loading='lazy' width='395' height='610'  />
+                            <img src={`./assets/${image}`} alt={alt_image} className="Section-img" loading='lazy' width='395' height='610'  />
                         </picture>
                     </div>
             </section>

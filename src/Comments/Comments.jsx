@@ -60,7 +60,7 @@ const Comment = (props)=>{
         <li className={`Comments-li Comment${name}`}>
             <p className="Comment-paragraph">{comment}</p>
             <picture className="Comment-picture">
-                <img src={`../../src/assets/${image}`} alt={`${name} logo`} className="Comment-img" loading='lazy' />
+                <img src={`./assets/${image}`} alt={`${name} logo`} className="Comment-img" loading='lazy' />
             </picture>
         </li>
         </>
