@@ -260,8 +260,8 @@
         flex-flow: column;
         gap: 4rem;
     }
-    .Section:nth-child(even){
-        flex-flow: column;
+    .Section-wrapper:nth-child(even)>.Section{
+        flex-direction: row-reverse;
     }
     .Section.Section-drag-left{
         flex-flow: column-reverse;
