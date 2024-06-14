@@ -5,7 +5,7 @@ export const Comments = ()=>{
 
     const [comments , setComments] = useState([])
 
-    const {VITE_COMMENTS} = import.meta.env
+    const {VITE_COMMENTS} = import.meta.env || 'http://localhost:3000'
 
     const getComments = async ()=>{
         let controller = new AbortController()

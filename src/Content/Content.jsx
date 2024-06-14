@@ -5,7 +5,7 @@ export const Content = ()=>{
 
     const [content , setContent] = useState([])
 
-    const {VITE_CONTENT} = import.meta.env
+    const {VITE_CONTENT} = import.meta.env || 'http://localhost:3000'
 
     const contentRequest = async ()=>{
         let controller = new AbortController()

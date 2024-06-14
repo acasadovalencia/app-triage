@@ -5,7 +5,7 @@ export const Cards = ()=>{
 
     const [cards , setCards] = useState([])
 
-    const {VITE_CARDS} = import.meta.env
+    const {VITE_CARDS} = import.meta.env || 'http://localhost:3000'
 
     const getCards = async ()=>{
         let controller = new AbortController()
