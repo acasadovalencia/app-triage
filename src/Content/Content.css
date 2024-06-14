@@ -270,7 +270,7 @@
         flex-flow: column-reverse;
     }
     .Section-wrapper:nth-child(even)>.Section-tap{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .Section-description{
         width: 100%;
