@@ -261,7 +261,7 @@
         gap: 4rem;
     }
     .Section-wrapper:nth-child(even)>.Section{
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
     }
     .Section.Section-drag-left{
         flex-flow: column-reverse;
